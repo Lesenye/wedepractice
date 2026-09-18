@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts | Kalahur Fitness Club</title>
+    <!-- 2.1 Linked External CSS Master Architecture -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ==================== FIXED NAVIGATION TOP BAR WITH LOGO IMAGE & CAPSULE BUTTONS ==================== -->
+    <header class="site-header-fixed">
+        <div class="header-inner-row">
+            <!-- Brand Logo Graphic Image Area -->
+            <div class="brand-logo-area">
+                <img src="kalahur.jpg" alt="Kalahur Fitness Club Logo" class="header-logo-graphic">
+            </div>
+
+            <!-- Compact Navigation Menu Links Column Array -->
+            <nav class="main-navigation-menu">
+                <ul class="nav-links-list">
+                    <li><a href="index.html" class="nav-item-link">Home</a></li>
+                    <li><a href="about.html" class="nav-item-link">About</a></li>
+                    <li><a href="gallery.html" class="nav-item-link">Services</a></li>
+                    <li><a href="contact.html" class="nav-item-link active-page">Contacts</a></li>
+                </ul>
+            </nav>
+
+            <!-- Quick Communication Display Layout -->
+            <div class="header-comms-group">
+                <a href="tel:0879107839" class="phone-display-link">087 910 7839</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- ==================== MAIN PAGE FORM AND CONTACT DETAILS CONTENT MATRIX ==================== -->
+    <main class="subpage-main-layout">
+        <div class="wireframe-container section-spacing">
+            
+            <div class="professional-contact-grid">
+                <!-- Left Column: Business Details -->
+                <div class="contact-details-sidebar">
+                    <h2 class="section-title-left">CONTACT DETAILS</h2>
+                    <div class="details-card-block">
+                        <div class="detail-item">
+                           
+                            <p><strong>Physical Address:</strong><br>Flora Park, Polokwane, 0700, South Africa</p>
+                        </div>
+                        <div class="detail-item">
+                            
+                            <p><strong>Business Phone Line:</strong><br>087 910 7839</p>
+                        </div>
+                        <div class="detail-item">
+                            
+                            <p><strong>Email Address:</strong><br>kalahurfitness.co.za</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Column: Premium Aligned Form Panel -->
+                <div class="contact-form-panel">
+                    <h3 class="form-panel-title">Online Enquiry Form</h3>
+                    <form action="#" method="POST" onsubmit="event.preventDefault();">
+                        <div class="form-input-row">
+                            <label class="form-element-label" for="client-name">Full Name</label>
+                            <input class="form-field-input" type="text" id="client-name" name="client-name" placeholder="Enter your full name" required>
+                        </div>
+                        <div class="form-input-row">
+                            <label class="form-element-label" for="client-email">Email Address</label>
+                            <input class="form-field-input" type="email" id="client-email" name="client-email" placeholder="example@gmail.com" required>
+                        </div>
+                        <div class="form-input-row">
+                            <label class="form-element-label" for="client-msg">Message / Enquiry Details</label>
+                            <textarea class="form-field-textarea" id="client-msg" name="client-msg" rows="6" placeholder="How can we help you reach your fitness goals?" required></textarea>
+                        </div>
+                        <div class="form-action-align">
+                            <button class="form-submit-action-btn" type="submit">Submit Form</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- ==================== FIXED ASSIGNMENT DOUBLE-LINE FOOTER ELEMENT ==================== -->
+    <footer class="wireframe-double-footer">
+        <div class="footer-inner-wrapper">
+            <div class="footer-col-left">
+                <img src="kalahur.jpg" alt="Footer Logo" class="footer-logo-graphic">
+            </div>
+            <div class="footer-col-center">KALAHUR FITNESS CLUB.</div>
+            <div class="footer-col-right">Privacy Policy | Terms & Conditions</div>
+        </div>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Kalahur Fitness Club</title>
+    <!-- 2.1 Linked External CSS Master Architecture -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ==================== FIXED NAVIGATION TOP BAR WITH LOGO IMAGE & CAPSULE BUTTONS ==================== -->
+    <header class="site-header-fixed">
+        <div class="header-inner-row">
+            <!-- Brand Logo Graphic Image Area -->
+            <div class="brand-logo-area">
+                <img src="kalahur.jpg" alt="Kalahur Fitness Club Logo" class="header-logo-graphic">
+            </div>
+
+            <!-- Compact Navigation Menu Links Column Array -->
+            <nav class="main-navigation-menu">
+                <ul class="nav-links-list">
+                    <li><a href="index.html" class="nav-item-link active-page">Home</a></li>
+                    <li><a href="about.html" class="nav-item-link">About</a></li>
+                    <li><a href="gallery.html" class="nav-item-link">Services</a></li>
+                    <li><a href="contact.html" class="nav-item-link">Contacts</a></li>
+                </ul>
+            </nav>
+
+            <!-- Quick Communication Display Layout -->
+            <div class="header-comms-group">
+                <a href="tel:087 910 7839" class="phone-display-link">087 910 7839</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- ==================== IMMERSIVE FULL SCREEN HERO VIEWPORT WITH MANUAL SWITCH SLIDER ==================== -->
+    <main class="full-screen-hero-viewport">
+        
+        <!-- Standard form control handlers used underneath the hood to enforce pure manual image updates -->
+        <input type="radio" id="hero-track1" name="hero-manual-trigger" checked>
+        <input type="radio" id="hero-track2" name="hero-manual-trigger">
+        <input type="radio" id="hero-track3" name="hero-manual-trigger">
+        <input type="radio" id="hero-track4" name="hero-manual-trigger">
+        <input type="radio" id="hero-track5" name="hero-manual-trigger">
+
+        <!-- Image slider strip row track layers -->
+        <div class="hero-image-media-layer">
+            <div class="hero-slide-strip">
+                <div class="hero-slide-img" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.65)), url('cardio.jpg');"></div>
+                <div class="hero-slide-img" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.65)), url('weights.jpg');"></div>
+                <div class="hero-slide-img" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.65)), url('strength.jpg');"></div>
+                <div class="hero-slide-img" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.65)), url('crossfit.jpg');"></div>
+                <div class="hero-slide-img" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.65)), url('boxing.jpg');"></div>
+            </div>
+        </div>
+
+        <!-- Left Arrow Triggers Array -->
+        <label for="hero-track5" class="arrow-control-label left-arrow-pos">❮</label>
+        <label for="hero-track1" class="arrow-control-label left-arrow-pos">❮</label>
+        <label for="hero-track2" class="arrow-control-label left-arrow-pos">❮</label>
+        <label for="hero-track3" class="arrow-control-label left-arrow-pos">❮</label>
+        <label for="hero-track4" class="arrow-control-label left-arrow-pos">❮</label>
+
+        <!-- Right Arrow Triggers Array -->
+        <label for="hero-track2" class="arrow-control-label right-arrow-pos">❯</label>
+        <label for="hero-track3" class="arrow-control-label right-arrow-pos">❯</label>
+        <label for="hero-track4" class="arrow-control-label right-arrow-pos">❯</label>
+        <label for="hero-track5" class="arrow-control-label right-arrow-pos">❯</label>
+        <label for="hero-track1" class="arrow-control-label right-arrow-pos">❯</label>
+
+        <!-- Centered Core Content Overlay Grid Layer -->
+        <div class="hero-content-center-overlay">
+            <h2 class="hero-display-title">CHOOSE LIFE. STAY ACTIVE.</h2>
+            <p class="hero-display-description">We can help you track your progress and reach your goals.</p>
+            <a href="contact.html" class="hero-action-button-cta">CONTACT US</a>
+        </div>
+    </main>
+    <!-- ==================== PREMIUM DESIGN SECTION: MEMBERSHIP PLANS MATRIX ==================== -->
+    <div class="section-divider-dashed"></div>
+    
+    <div class="wireframe-container section-spacing">
+        <h2 class="section-title-left">MEMBERSHIP PLANS</h2>
+        
+        <div class="wireframe-membership-grid">
+            <!-- Plan 1 -->
+            <div class="premium-plan-card">
+                <div class="card-content-stack">
+                    <h3 class="plan-name">Student Tier</h3>
+                    <div class="plan-price-tag">R250<span>/ month</span></div>
+                    <ul class="plan-roles-list">
+                        <li>Valid Student ID Required</li>
+                        <li>Full Gym Floor Access</li>
+                        <li>Off-Peak Hour Freedom</li>
+                        <li>Basic Workout Guide</li>
+                    </ul>
+                    <a href="contact.html" class="plan-select-btn">Join Tier</a>
+                </div>
+            </div>
+
+            <!-- Plan 2 -->
+            <div class="premium-plan-card">
+                <div class="card-content-stack">
+                    <h3 class="plan-name">Employee Tier</h3>
+                    <div class="plan-price-tag">R350<span>/ month</span></div>
+                    <ul class="plan-roles-list">
+                        <li>Corporate Partner Rate</li>
+                        <li>All Day Equipment Access</li>
+                        <li>Locker & Shower Access</li>
+                        <li>1 Fitness Assessment</li>
+                    </ul>
+                    <a href="contact.html" class="plan-select-btn">Join Tier</a>
+                </div>
+            </div>
+
+            <!-- Plan 3 -->
+            <div class="premium-plan-card">
+                <div class="card-content-stack">
+                    <h3 class="plan-name">Senior Citizen</h3>
+                    <div class="plan-price-tag">R200<span>/ month</span></div>
+                    <ul class="plan-roles-list">
+                        <li>Ages 60+ Welcome</li>
+                        <li>Low-Impact Machine Access</li>
+                        <li>Dedicated Coaching Support</li>
+                        <li>Morning Session Freedom</li>
+                    </ul>
+                    <a href="contact.html" class="plan-select-btn">Join Tier</a>
+                </div>
+            </div>
+
+            <!-- Plan 4 -->
+            <div class="premium-plan-card">
+                <div class="card-content-stack">
+                    <h3 class="plan-name">Standard Access</h3>
+                    <div class="plan-price-tag">R400<span>/ month</span></div>
+                    <ul class="plan-roles-list">
+                        <li>No Long Term Contract</li>
+                        <li>Unlimited Gym Floor Access</li>
+                        <li>Free Weight Zone Entry</li>
+                        <li>Full Operating Hours Access</li>
+                    </ul>
+                    <a href="contact.html" class="plan-select-btn">Join Tier</a>
+                </div>
+            </div>
+
+            <!-- Plan 5 -->
+            <div class="premium-plan-card">
+                <div class="card-content-stack">
+                    <h3 class="plan-name">Premium Track</h3>
+                    <div class="plan-price-tag">R550<span>/ month</span></div>
+                    <ul class="plan-roles-list">
+                        <li>Full Sauna Zone Access</li>
+                        <li>All Group Classes Included</li>
+                        <li>Advanced Wellness App</li>
+                        <li>Monthly Trainer Check-In</li>
+                    </ul>
+                    <a href="contact.html" class="plan-select-btn">Join Tier</a>
+                </div>
+            </div>
+
+            <!-- Plan 6 -->
+            <div class="premium-plan-card">
+                <div class="card-content-stack">
+                    <h3 class="plan-name">Elite Performance</h3>
+                    <div class="plan-price-tag">R850<span>/ month</span></div>
+                    <ul class="plan-roles-list">
+                        <li>1-on-1 Personal Training</li>
+                        <li>Custom Diet Strategies</li>
+                        <li>VIP Locker Allocation</li>
+                        <li>24/7 Support Hotline</li>
+                    </ul>
+                    <a href="contact.html" class="plan-select-btn">Join Tier</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ==================== PROPOSAL SECTION: OPERATING HOURS ==================== -->
+    <div class="section-divider-dashed"></div>
+
+    <div class="wireframe-container section-spacing">
+        <h2 class="section-title-left">OPERATING HOURS</h2>
+        
+        <div class="premium-hours-box-panel">
+            <p class="hours-box-heading">// listing the hours and time of when the business is running</p>
+            <table class="wireframe-table-element">
+                <tbody>
+                    <tr><td>Monday - Thursday</td><td>06:00 – 19:30</td></tr>
+                    <tr><td>Friday</td><td>06:00 – 17:00</td></tr>
+                    <tr><td>Saturday</td><td>06:00 – 12:30</td></tr>
+                    <tr><td>Sunday & Public Holidays</td><td class="closed-tag-highlight">CLOSED</td></tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- ==================== PROPOSAL SECTION: BUSINESS LOCATION ==================== -->
+    <div class="section-divider-dashed"></div>
+
+    <div class="wireframe-container section-spacing">
+        <h3 class="section-title-center">BUSINESS LOCATION</h3>
+        <div class="live-map-container-frame">
+            <iframe 
+                class="live-map-iframe-element"
+                src="https://google.com" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+    </div>
+
+    <footer class="wireframe-double-footer">
+        <div class="footer-inner-wrapper">
+            <div class="footer-col-left">
+                <img src="kalahur.jpg" alt="Footer Logo" class="footer-logo-graphic">
+            </div>
+            <div class="footer-col-center">KALAHUR FITNESS CLUB.</div>
+            <div class="footer-col-right">Privacy Policy | Terms & Conditions</div>
+        </div>
+    </footer>
+
+</body>
+</html>
