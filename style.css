@@ -175,6 +175,20 @@ input[name="hero-manual-trigger"] {
     user-select: none;
 }
 
+.hero-display-title {
+  transition: opacity 0.5s ease-in-out;
+  opacity: 1;
+}
+
+.hero-display-title.fade-out {
+  opacity: 0;
+}
+
+.hero-display-title.fade-in {
+  opacity: 1;
+}
+
+
 .arrow-control-label:hover { background-color: #ffffff; }
 .left-arrow-pos { left: 3%; }
 .right-arrow-pos { right: 3%; }
